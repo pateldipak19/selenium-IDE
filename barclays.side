@@ -1,0 +1,188 @@
+{
+  "id": "7f469f45-b39c-49c3-b161-b13b508bd99f",
+  "version": "2.0",
+  "name": "barclays",
+  "url": "https://www.barclays.co.uk",
+  "tests": [{
+    "id": "fbf0ed73-8e6f-409c-8692-4d4524f7b8af",
+    "name": "personal_loan ",
+    "commands": [{
+      "id": "dc2ab31a-443d-47a7-8957-47c1b4ca09ab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e7bf02e-e79d-4315-8bce-a0cbf26cac0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88909071-2e38-47a6-ba74-e9787673cdb5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Bank",
+      "targets": [
+        ["linkText=Bank", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bank')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4b9a173-a496-4dbd-bfd9-a1251cdc394a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Bank",
+      "targets": [
+        ["linkText=Bank", "linkText"],
+        ["css=.main-nav > ul > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bank')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bank')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f3f69a9-3ad9-4c37-a859-6612cc98089b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Personal loan",
+      "targets": [
+        ["linkText=Personal loan", "linkText"],
+        ["css=.nav-col-six > li:nth-child(1) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Personal loan')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/loans/personal/')]", "xpath:href"],
+        ["xpath=//li[2]/div/ul/li/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Personal loan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2848dcaa-e515-4207-8632-c89e7504362a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4 .m-button__text",
+      "targets": [
+        ["css=.col-sm-4 .m-button__text", "css:finder"],
+        ["xpath=//main[@id='main-content']/section/div/div[2]/div/div/div/div/div/div/div[2]/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'How much can I borrow?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8c93af7-8286-4f1c-aee7-5c9f532ecbf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\_content_barclaysuk_en_personal_loans_personal_jcr_content_page_par_section_1863496949_c_section_par_promo_wrapper_v2_1_row_column_one_reference_promo_tilev2_ctas_cta .m-button__text",
+      "targets": [
+        ["css=#\\_content_barclaysuk_en_personal_loans_personal_jcr_content_page_par_section_1863496949_c_section_par_promo_wrapper_v2_1_row_column_one_reference_promo_tilev2_ctas_cta .m-button__text", "css:finder"],
+        ["xpath=//div[@id='_content_barclaysuk_en_personal_loans_personal_jcr_content_page_par_section_1863496949_c_section_par_promo_wrapper_v2_1_row_column_one_reference_promo_tilev2_ctas_cta']/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Check now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51a4e776-a0ee-4ae0-aba3-7fc311f13397",
+      "comment": "",
+      "command": "click",
+      "target": "id=surnameMem",
+      "targets": [
+        ["id=surnameMem", "id"],
+        ["name=surname", "name"],
+        ["css=#surnameMem", "css:finder"],
+        ["xpath=//input[@id='surnameMem']", "xpath:attributes"],
+        ["xpath=//ng-form[@id='membershipForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71019d21-f662-42a8-892f-0e13be42531b",
+      "comment": "",
+      "command": "type",
+      "target": "id=surnameMem",
+      "targets": [
+        ["id=surnameMem", "id"],
+        ["name=surname", "name"],
+        ["css=#surnameMem", "css:finder"],
+        ["xpath=//input[@id='surnameMem']", "xpath:attributes"],
+        ["xpath=//ng-form[@id='membershipForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "patel"
+    }, {
+      "id": "c0a4adc7-bbba-46e8-b93d-ae9fcb825390",
+      "comment": "",
+      "command": "type",
+      "target": "id=membership0",
+      "targets": [
+        ["id=membership0", "id"],
+        ["name=membership", "name"],
+        ["css=#membership0", "css:finder"],
+        ["xpath=//input[@id='membership0']", "xpath:attributes"],
+        ["xpath=//ng-form[@id='membershipForm']/div[2]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "1234567"
+    }, {
+      "id": "48f9ca49-9a55-4459-9b99-297bac68b842",
+      "comment": "",
+      "command": "click",
+      "target": "id=continue",
+      "targets": [
+        ["id=continue", "id"],
+        ["name=$$submit", "name"],
+        ["css=#continue", "css:finder"],
+        ["xpath=//button[@id='continue']", "xpath:attributes"],
+        ["xpath=//form[@id='loginStep1']/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1432cf2-38a3-4161-954a-6c5991c620f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=continue",
+      "targets": [
+        ["id=continue", "id"],
+        ["name=$$submit", "name"],
+        ["css=#continue", "css:finder"],
+        ["xpath=//button[@id='continue']", "xpath:attributes"],
+        ["xpath=//form[@id='loginStep1']/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fb07437-0181-4f2b-a4ba-b8fd2fee0beb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=continue",
+      "targets": [
+        ["id=continue", "id"],
+        ["name=$$submit", "name"],
+        ["css=#continue", "css:finder"],
+        ["xpath=//button[@id='continue']", "xpath:attributes"],
+        ["xpath=//form[@id='loginStep1']/div[3]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "010ae1c3-8c4a-4c5f-8477-d3ec797fe246",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fbf0ed73-8e6f-409c-8692-4d4524f7b8af"]
+  }],
+  "urls": ["https://www.barclays.co.uk/"],
+  "plugins": []
+}

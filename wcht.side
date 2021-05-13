@@ -1,0 +1,632 @@
+{
+  "id": "bd377e26-47c3-4c91-8b87-56237c07826d",
+  "version": "2.0",
+  "name": "wcht",
+  "url": "https://www.wcht.org.uk",
+  "tests": [{
+    "id": "6486630d-fcc8-4269-a63b-8269586c450e",
+    "name": "creataccount",
+    "commands": [{
+      "id": "6f229645-d0e6-4698-be86-88489d854d2c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "729b4043-24e8-4d88-bbcb-eb8e3214d6ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "718a41bb-543f-46da-9891-15fb61f99cf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__nav-link-object .btn__text",
+      "targets": [
+        ["css=.header__nav-link-object .btn__text", "css:finder"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Your account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f55e95e-4aed-4944-a27b-7d58e33eac98",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn",
+      "targets": [
+        ["id=btn", "id"],
+        ["css=#btn", "css:finder"],
+        ["xpath=//input[@id='btn']", "xpath:attributes"],
+        ["xpath=//div[@id='widget_C_SC_HOME_PAGE']/div/div[2]/div/div[3]/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72e47356-8c4f-458d-ac1d-6677b8cce225",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=I am a tenant or shared owner",
+      "targets": [
+        ["linkText=I am a tenant or shared owner", "linkText"],
+        ["css=div:nth-child(2) > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'I am a tenant or shared owner')]", "xpath:link"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'register/tenant')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'I am a tenant or shared owner')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f608eee7-8b64-4318-9c77-74a5d01811b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_title",
+      "targets": [
+        ["id=field_title", "id"],
+        ["name=field_title", "name"],
+        ["css=#field_title", "css:finder"],
+        ["xpath=//select[@id='field_title']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div/div/ng-form/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e78df5fd-1814-477e-9a37-3b23f65b2177",
+      "comment": "",
+      "command": "select",
+      "target": "id=field_title",
+      "targets": [],
+      "value": "label=Mrs"
+    }, {
+      "id": "3246733f-ef27-4f91-a83a-4fed1a37f5af",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_title",
+      "targets": [
+        ["id=field_title", "id"],
+        ["name=field_title", "name"],
+        ["css=#field_title", "css:finder"],
+        ["xpath=//select[@id='field_title']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div/div/ng-form/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d57442e5-8a5f-4980-a2eb-aa53419f3fbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_surname",
+      "targets": [
+        ["id=field_surname", "id"],
+        ["name=field_surname", "name"],
+        ["css=#field_surname", "css:finder"],
+        ["xpath=//input[@id='field_surname']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[3]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ce240ba-6578-4062-8234-ae19b8b99bfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_title",
+      "targets": [
+        ["id=field_title", "id"],
+        ["name=field_title", "name"],
+        ["css=#field_title", "css:finder"],
+        ["xpath=//select[@id='field_title']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div/div/ng-form/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b8e6bd4-927b-460a-9726-ac43d999f1f4",
+      "comment": "",
+      "command": "select",
+      "target": "id=field_title",
+      "targets": [],
+      "value": "label=Mr"
+    }, {
+      "id": "005bfb05-8d68-4c28-b707-4691963f046a",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_title",
+      "targets": [
+        ["id=field_title", "id"],
+        ["name=field_title", "name"],
+        ["css=#field_title", "css:finder"],
+        ["xpath=//select[@id='field_title']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div/div/ng-form/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b19af8db-bace-4677-abd4-07bf64b252a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_forename",
+      "targets": [
+        ["id=field_forename", "id"],
+        ["name=field_forename", "name"],
+        ["css=#field_forename", "css:finder"],
+        ["xpath=//input[@id='field_forename']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[2]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd0a33eb-2d8a-4cdb-9fa4-92d65fb359ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_forename",
+      "targets": [
+        ["id=field_forename", "id"],
+        ["name=field_forename", "name"],
+        ["css=#field_forename", "css:finder"],
+        ["xpath=//input[@id='field_forename']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[2]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "D"
+    }, {
+      "id": "004d9a8b-3aad-48ea-8476-78d7d719ab5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_surname",
+      "targets": [
+        ["id=field_surname", "id"],
+        ["name=field_surname", "name"],
+        ["css=#field_surname", "css:finder"],
+        ["xpath=//input[@id='field_surname']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[3]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "037277b3-c5a3-4fc8-85ac-af1108daa514",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_surname",
+      "targets": [
+        ["id=field_surname", "id"],
+        ["name=field_surname", "name"],
+        ["css=#field_surname", "css:finder"],
+        ["xpath=//input[@id='field_surname']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[3]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": "patel"
+    }, {
+      "id": "7bd50153-1e00-4ade-a46b-d0209b82b268",
+      "comment": "",
+      "command": "click",
+      "target": "name=dateFields.day",
+      "targets": [
+        ["name=dateFields.day", "name"],
+        ["css=.col-xs-4:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//select[@name='dateFields.day']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[4]/div/ng-form/div/ssp-date-dropdowns/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f67dc8e-34c0-4f85-9e9f-c26654622932",
+      "comment": "",
+      "command": "select",
+      "target": "name=dateFields.day",
+      "targets": [],
+      "value": "label=2"
+    }, {
+      "id": "c1ed18d1-d2a2-438c-8752-5d9b1c1594fc",
+      "comment": "",
+      "command": "click",
+      "target": "name=dateFields.day",
+      "targets": [
+        ["name=dateFields.day", "name"],
+        ["css=.ng-not-empty-add", "css:finder"],
+        ["xpath=//select[@name='dateFields.day']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[4]/div/ng-form/div/ssp-date-dropdowns/div/div/select", "xpath:idRelative"],
+        ["xpath=//div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a22af4-8205-486a-a578-42919ebd47ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=dateFields.month",
+      "targets": [
+        ["name=dateFields.month", "name"],
+        ["css=.col-xs-4:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//select[@name='dateFields.month']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[4]/div/ng-form/div/ssp-date-dropdowns/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f980b787-4d00-4277-9a9d-aad51f5fabad",
+      "comment": "",
+      "command": "select",
+      "target": "name=dateFields.month",
+      "targets": [],
+      "value": "label=May"
+    }, {
+      "id": "0bca2dfd-2cbb-405e-9ac7-683e25d377c0",
+      "comment": "",
+      "command": "click",
+      "target": "name=dateFields.month",
+      "targets": [
+        ["name=dateFields.month", "name"],
+        ["css=.ng-not-empty-add", "css:finder"],
+        ["xpath=//select[@name='dateFields.month']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[4]/div/ng-form/div/ssp-date-dropdowns/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a992e7f-ead3-4388-baa2-ffec9e9ba643",
+      "comment": "",
+      "command": "click",
+      "target": "name=dateFields.year",
+      "targets": [
+        ["name=dateFields.year", "name"],
+        ["css=.col-xs-4 > .ng-pristine", "css:finder"],
+        ["xpath=//select[@name='dateFields.year']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[4]/div/ng-form/div/ssp-date-dropdowns/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48263116-f536-4354-b8b7-d1b6a24224f7",
+      "comment": "",
+      "command": "select",
+      "target": "name=dateFields.year",
+      "targets": [],
+      "value": "label=1983"
+    }, {
+      "id": "4bbcc9f2-e635-4087-b5f7-136f67968ade",
+      "comment": "",
+      "command": "click",
+      "target": "name=dateFields.year",
+      "targets": [
+        ["name=dateFields.year", "name"],
+        ["css=.ng-pristine-remove", "css:finder"],
+        ["xpath=//select[@name='dateFields.year']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[4]/div/ng-form/div/ssp-date-dropdowns/div/div[3]/select", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8be4e8aa-60e7-4d78-b60e-0902608c74dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_gender",
+      "targets": [
+        ["id=field_gender", "id"],
+        ["name=field_gender", "name"],
+        ["css=#field_gender", "css:finder"],
+        ["xpath=//select[@id='field_gender']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[5]/div/ng-form/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/ng-form/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f453fea-c092-41a5-8216-f16007251d6a",
+      "comment": "",
+      "command": "select",
+      "target": "id=field_gender",
+      "targets": [],
+      "value": "label=Male"
+    }, {
+      "id": "fd754bfa-0a7f-40bc-b835-dda48542963d",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_gender",
+      "targets": [
+        ["id=field_gender", "id"],
+        ["name=field_gender", "name"],
+        ["css=#field_gender", "css:finder"],
+        ["xpath=//select[@id='field_gender']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[5]/div/ng-form/div/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div/ng-form/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "436b856c-41cf-4f07-b4cd-0bb65e48abe1",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_refNumber",
+      "targets": [
+        ["id=field_refNumber", "id"],
+        ["name=field_refNumber", "name"],
+        ["css=#field_refNumber", "css:finder"],
+        ["xpath=//input[@id='field_refNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[6]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb4e69a5-a886-4555-95bb-82e1a8949b85",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_refNumber",
+      "targets": [
+        ["id=field_refNumber", "id"],
+        ["name=field_refNumber", "name"],
+        ["css=#field_refNumber", "css:finder"],
+        ["xpath=//input[@id='field_refNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[6]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "0a87f76f-ffb5-47ff-b392-ca9c59ea89aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_niNumber",
+      "targets": [
+        ["id=field_niNumber", "id"],
+        ["name=field_niNumber", "name"],
+        ["css=#field_niNumber", "css:finder"],
+        ["xpath=//input[@id='field_niNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[7]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "893ecbc3-c866-4d85-90e6-e0c0a47d8d8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_niNumber",
+      "targets": [
+        ["id=field_niNumber", "id"],
+        ["name=field_niNumber", "name"],
+        ["css=#field_niNumber", "css:finder"],
+        ["xpath=//input[@id='field_niNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[7]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": "sl203030c"
+    }, {
+      "id": "ec26c697-8b3d-4667-9fb6-e98584b3d2bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_telephone",
+      "targets": [
+        ["id=field_telephone", "id"],
+        ["name=field_telephone", "name"],
+        ["css=#field_telephone", "css:finder"],
+        ["xpath=//input[@id='field_telephone']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[8]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad90723d-7b1a-45bf-9a1f-1b7df0ee5a4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_telephone",
+      "targets": [
+        ["id=field_telephone", "id"],
+        ["name=field_telephone", "name"],
+        ["css=#field_telephone", "css:finder"],
+        ["xpath=//input[@id='field_telephone']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[8]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": "0877392938"
+    }, {
+      "id": "c642b2cc-b009-47eb-871b-4bd5154dd048",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=field_mobile",
+      "targets": [
+        ["id=field_mobile", "id"],
+        ["name=field_mobile", "name"],
+        ["css=#field_mobile", "css:finder"],
+        ["xpath=//input[@id='field_mobile']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[9]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccd9e602-0202-4998-a85b-853f9e0006c7",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=div:nth-child(9) label",
+      "targets": [
+        ["css=div:nth-child(9) label", "css:finder"],
+        ["xpath=//div[@id='form']/div[9]/div/ng-form/div/label", "xpath:idRelative"],
+        ["xpath=//div[9]/div/ng-form/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Mobile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f65a30c7-5bb7-4892-982a-386bdce62faa",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(9) .form-group",
+      "targets": [
+        ["css=div:nth-child(9) .form-group", "css:finder"],
+        ["xpath=//div[@id='form']/div[9]/div/ng-form/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div/ng-form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8711360a-8cbd-4106-91ee-0bac833aa5fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_mobile",
+      "targets": [
+        ["id=field_mobile", "id"],
+        ["name=field_mobile", "name"],
+        ["css=#field_mobile", "css:finder"],
+        ["xpath=//input[@id='field_mobile']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[9]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": "077283999182"
+    }, {
+      "id": "c02102d9-f314-44a1-bd10-0b251695ef14",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-content",
+      "targets": [
+        ["id=main-content", "id"],
+        ["css=#main-content", "css:finder"],
+        ["xpath=//main[@id='main-content']", "xpath:attributes"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de8088e3-8e35-4132-9911-54e5bb819333",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_telephone",
+      "targets": [
+        ["id=field_telephone", "id"],
+        ["name=field_telephone", "name"],
+        ["css=#field_telephone", "css:finder"],
+        ["xpath=//input[@id='field_telephone']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[8]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bf8eb65-2f3c-498c-876b-6cb38a55e458",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_username",
+      "targets": [
+        ["id=field_username", "id"],
+        ["name=field_username", "name"],
+        ["css=#field_username", "css:finder"],
+        ["xpath=//input[@id='field_username']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[10]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c97a6749-eeb3-4557-b17b-12275e4ae3d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_username",
+      "targets": [
+        ["id=field_username", "id"],
+        ["name=field_username", "name"],
+        ["css=#field_username", "css:finder"],
+        ["xpath=//input[@id='field_username']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[10]/div/ng-form/div/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/ng-form/div/input", "xpath:position"]
+      ],
+      "value": "p123"
+    }, {
+      "id": "91fa6b02-57b4-427a-a8b5-c08a6b6a9915",
+      "comment": "",
+      "command": "click",
+      "target": "id=field_password",
+      "targets": [
+        ["id=field_password", "id"],
+        ["name=field_password", "name"],
+        ["css=#field_password", "css:finder"],
+        ["xpath=//input[@id='field_password']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[11]/div/ng-form/input", "xpath:idRelative"],
+        ["xpath=//ng-form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f171a1d0-451b-4b88-ad80-dca5f1ebbd9c",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_password",
+      "targets": [
+        ["id=field_password", "id"],
+        ["name=field_password", "name"],
+        ["css=#field_password", "css:finder"],
+        ["xpath=//input[@id='field_password']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[11]/div/ng-form/input", "xpath:idRelative"],
+        ["xpath=//ng-form/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "ca3b55ff-3cca-43bf-964f-6d9d8c76ac42",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirm_password2",
+      "targets": [
+        ["id=confirm_password", "id"],
+        ["name=confirm_password", "name"],
+        ["css=#confirm_password", "css:finder"],
+        ["xpath=//input[@id='confirm_password']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[11]/div/ng-form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "e7341101-278a-442c-9446-00364caa49fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-content",
+      "targets": [
+        ["id=main-content", "id"],
+        ["css=#main-content", "css:finder"],
+        ["xpath=//main[@id='main-content']", "xpath:attributes"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e414adb4-0f35-4942-b482-a713ce137f58",
+      "comment": "",
+      "command": "type",
+      "target": "id=field_password",
+      "targets": [
+        ["id=field_password", "id"],
+        ["name=field_password", "name"],
+        ["css=#field_password", "css:finder"],
+        ["xpath=//input[@id='field_password']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[11]/div/ng-form/input", "xpath:idRelative"],
+        ["xpath=//ng-form/input", "xpath:position"]
+      ],
+      "value": "a1234567"
+    }, {
+      "id": "50db0777-0bb4-4625-97a6-ced86a894064",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirm_password",
+      "targets": [
+        ["id=confirm_password", "id"],
+        ["name=confirm_password", "name"],
+        ["css=#confirm_password", "css:finder"],
+        ["xpath=//input[@id='confirm_password']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/div[11]/div/ng-form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "a1234567"
+    }, {
+      "id": "732bfa69-e805-43bb-9b2b-cbec0a5aff64",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='ngView']/div/div/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9c27f976-8093-425a-b736-f108ee1e4c5a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6486630d-fcc8-4269-a63b-8269586c450e"]
+  }],
+  "urls": ["https://www.wcht.org.uk/"],
+  "plugins": []
+}

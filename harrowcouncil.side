@@ -1,0 +1,203 @@
+{
+  "id": "1acea761-4828-4bde-80c6-f9382094905b",
+  "version": "2.0",
+  "name": "harrow_council",
+  "url": "https://www.harrow.gov.uk",
+  "tests": [{
+    "id": "1157a6a0-fc0d-4e51-ba03-58ca06035ff1",
+    "name": "councilTax",
+    "commands": [{
+      "id": "f8eef159-f993-4d2f-875d-cb9bdc9e9af0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ee1c6f2-158c-4da9-93c8-a9381d79783e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b401b28-52ec-45a1-8ff0-2b4d27e49978",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-menu-toggle > .button__text",
+      "targets": [
+        ["css=#js-menu-toggle > .button__text", "css:finder"],
+        ["xpath=//a[@id='js-menu-toggle']/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3ef39e8-8a33-4170-9283-99e5c931c5bb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Council Tax",
+      "targets": [
+        ["linkText=Council Tax", "linkText"],
+        ["css=.list__item:nth-child(9) > .list__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Council Tax')]", "xpath:link"],
+        ["xpath=//section[@id='js-menu']/div/nav/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/council-tax')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Council Tax')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d814653d-d6a3-4d72-bee1-9a4963e326f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card--highlight-green > .card__heading",
+      "targets": [
+        ["css=.card--highlight-green > .card__heading", "css:finder"],
+        ["xpath=//div[@id='content']/div[2]/div[2]/div/div/div/div/div/div/a/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Pay your council tax')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a47e8e5-9c40-487f-8a91-d309abc0d637",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pay my council tax online",
+      "targets": [
+        ["linkText=Pay my council tax online", "linkText"],
+        ["name=Online", "name"],
+        ["css=p:nth-child(11) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Pay my council tax online')]", "xpath:link"],
+        ["xpath=//a[@name='Online']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/p[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.harrow.gov.uk/pay')]", "xpath:href"],
+        ["xpath=//p[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pay my council tax online')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af88b531-c0c7-4fc5-8c5f-03bd896f49dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Council tax",
+      "targets": [
+        ["linkText=Council tax", "linkText"],
+        ["css=.aip_hierarchy_child_link_8 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Council tax')]", "xpath:link"],
+        ["xpath=//ul[@id='aip_itemSelectionList']/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/AIP/itemSelectionPage.do?link=forwardRequest&nodeName=R3sBBXiz7Fs=&requestId=oyudgicavb8x4qw5mv6uq3q5dy0qx85&ui_id=387:EN:AIP:null')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Council tax')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60d70b13-784f-4529-95d3-c9f1dc3f9e46",
+      "comment": "",
+      "command": "type",
+      "target": "id=FT_2274",
+      "targets": [
+        ["id=FT_2274", "id"],
+        ["name=FT_2274", "name"],
+        ["css=#FT_2274", "css:finder"],
+        ["xpath=//input[@id='FT_2274']", "xpath:attributes"],
+        ["xpath=//form[@id='AIPForm']/fieldset/div[2]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "0bcefa32-3c8b-4f40-b3c0-ca0f09dbafd0",
+      "comment": "",
+      "command": "type",
+      "target": "id=FT_2182",
+      "targets": [
+        ["id=FT_2182", "id"],
+        ["name=FT_2182", "name"],
+        ["css=#FT_2182", "css:finder"],
+        ["xpath=//input[@id='FT_2182']", "xpath:attributes"],
+        ["xpath=//form[@id='AIPForm']/fieldset/div[2]/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": "d"
+    }, {
+      "id": "4f3b9abc-7288-43a1-8e63-a9c086909d3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=FT_220923",
+      "targets": [
+        ["id=FT_2209", "id"],
+        ["name=FT_2209", "name"],
+        ["css=#FT_2209", "css:finder"],
+        ["xpath=//input[@id='FT_2209']", "xpath:attributes"],
+        ["xpath=//form[@id='AIPForm']/fieldset/div[2]/div[4]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/input", "xpath:position"]
+      ],
+      "value": "7 stanley "
+    }, {
+      "id": "d50ec222-ae5a-4e16-8b03-68a48d65e575",
+      "comment": "",
+      "command": "type",
+      "target": "id=FT_2210",
+      "targets": [
+        ["id=FT_2210", "id"],
+        ["name=FT_2210", "name"],
+        ["css=#FT_2210", "css:finder"],
+        ["xpath=//input[@id='FT_2210']", "xpath:attributes"],
+        ["xpath=//form[@id='AIPForm']/fieldset/div[2]/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "road "
+    }, {
+      "id": "4f9e7245-2ca8-4d5d-b607-2373fe181287",
+      "comment": "",
+      "command": "type",
+      "target": "id=PCI_319",
+      "targets": [
+        ["id=PCI_319", "id"],
+        ["name=PCI_319", "name"],
+        ["css=#PCI_319", "css:finder"],
+        ["xpath=//input[@id='PCI_319']", "xpath:attributes"],
+        ["xpath=//form[@id='AIPForm']/fieldset/div[2]/div[8]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div[3]/input", "xpath:position"]
+      ],
+      "value": "ha2 9fb"
+    }, {
+      "id": "ce4c8b77-271e-4e5e-ae3c-f34ec4684ff4",
+      "comment": "",
+      "command": "type",
+      "target": "id=ATI_21",
+      "targets": [
+        ["id=ATI_21", "id"],
+        ["name=ATI_21", "name"],
+        ["css=#ATI_21", "css:finder"],
+        ["xpath=//input[@id='ATI_21']", "xpath:attributes"],
+        ["xpath=//form[@id='AIPForm']/fieldset/div[2]/div[9]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div[3]/input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "9b927b62-86c2-48df-a4e9-aba31f22af02",
+      "comment": "",
+      "command": "click",
+      "target": "id=continue",
+      "targets": [
+        ["id=continue", "id"],
+        ["name=continue", "name"],
+        ["css=#continue", "css:finder"],
+        ["xpath=//input[@id='continue']", "xpath:attributes"],
+        ["xpath=//form[@id='AIPForm']/fieldset/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8f3e40e4-4153-4136-9efe-e3944b231d67",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1157a6a0-fc0d-4e51-ba03-58ca06035ff1"]
+  }],
+  "urls": ["https://www.harrow.gov.uk/"],
+  "plugins": []
+}
